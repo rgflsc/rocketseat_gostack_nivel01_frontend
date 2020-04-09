@@ -19,4 +19,5 @@ Anotações:
  Webpack: Pra cada tipode arquivo (.js, .css, .png) eu vou converter o código de uma maneira diferente
 
  Conceito -> Loaders: babel-loader, css-loader, image-loader
+          -> JSX: HTML dentro do Javascript
    
