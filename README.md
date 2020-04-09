@@ -20,4 +20,5 @@ Anotações:
 
  Conceito -> Loaders: babel-loader, css-loader, image-loader
           -> JSX: HTML dentro do Javascript
+          -> Fragment
    
