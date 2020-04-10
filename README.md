@@ -14,7 +14,8 @@ Pacotes instalados:
              [yarn add webpack-dev-server -D]
  - STYLE     [yarn add style-loader]
  - CSS       [yarn add css-loader]
- - FILE      [yarn add file-loader] 
+ - FILE      [yarn add file-loader]
+ - AXOS      [yarn add axios] 
 
 Comandos:
  - yarn webpack-dev-server --mode development
