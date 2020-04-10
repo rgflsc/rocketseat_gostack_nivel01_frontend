@@ -12,6 +12,12 @@ Pacotes instalados:
  - WEBPACK   [yarn add webpack]
              [yarn add webpack-cli]
              [yarn add webpack-dev-server -D]
+ - STYLE     [yarn add style-loader]
+ - CSS       [yarn add css-loader]
+ - FILE      [yarn add file-loader] 
+
+Comandos:
+ - yarn webpack-dev-server --mode development
 
 
 Anotações:
