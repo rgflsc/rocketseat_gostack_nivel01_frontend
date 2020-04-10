@@ -31,8 +31,17 @@ function App() {
   //   1 - Função que sera executada
   //   2 - Quando que a função sera executada (array de dependencias)
 
-  function handleAddProject() {
-    setProjects([...projects, `Novo Projeto ${Date.now()}`]);
+  async function handleAddProject() {
+    //setProjects([...projects, `Novo Projeto ${Date.now()}`]);
+
+    const response = await api.post('projects', {
+      title: `Novo Projeto ${Date.now()}`,
+      owner: "Rodrigo Garcia"
+    });
+
+    const project = response.data;
+
+    setProjects([...projects, project]);
   }
 
   return (

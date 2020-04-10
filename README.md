@@ -9,6 +9,7 @@ Pacotes instalados:
              [yarn add @babel/preset-react]
              [yarn add @babel/cli]
              [yarn add babel-loader]
+             [yarn add @babel/plugin-transform-runtime -D]
  - WEBPACK   [yarn add webpack]
              [yarn add webpack-cli]
              [yarn add webpack-dev-server -D]
